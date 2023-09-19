@@ -1,7 +1,7 @@
 # Digicards
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Projeto rápido feito para consumo de API para estudo e treinamento.
@@ -15,7 +15,7 @@ Projeto rápido feito para consumo de API para estudo e treinamento.
 
 Tecnologias, ferramentas e API utilizadas no desenvolvimento do projeto:
 
-- [VS Code](https://code.visualstudio.com/) com [ESLint](https://eslint.org/)
+- [VS Code](https://code.visualstudio.com/) com [React](https://pt-br.legacy.reactjs.org/)
 - [API](https://digimon-api.vercel.app/api/digimon)
 
 <br>
