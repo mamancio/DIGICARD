@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 
 body{ 
   background-image: url('./img/digimon.jfif'); 
@@ -7,6 +13,8 @@ body{
   background-color: black; 
   background-size: cover;
 }
+
+
 #digi-sec {
   display: flex;
   justify-content: center;
@@ -47,6 +55,18 @@ body{
   border-color: #373332;
   padding: 5px 10px;
 }
+
+.btn-voltar {  
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #000;
+  width: 140px;
+  margin-top: 20px;
+  
+}
+
 
 #container-input {
   margin-top: 30px;
