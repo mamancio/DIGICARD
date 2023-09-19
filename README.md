@@ -15,3 +15,7 @@ Tecnologias, ferramentas e API utilizadas no desenvolvimento do projeto:
 - [API](https://digimon-api.vercel.app/api/digimon)
 
 <br>
+
+## Fontes de pesquisas
+
+ - [Sobre os Digimons](https://simplesmentedigimon.blogspot.com/2013/04/tudo-sobre-digimon.html)
