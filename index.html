@@ -9,15 +9,17 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
         rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
         crossorigin="anonymous">
+
   <link rel="stylesheet" href="style.css">
   
   <link rel="icon" type="image/x-icon" href="/img/30219-4-digimon-transparent_64x64.ico">
   
   <title>Digicard</title>
+
 </head>
 
 <body>
-  <sectio id="container-sec">
+  <section id="container-sec">
     <div class="card" id="digi-sec">
       <img class="card-img-top" src="./img/imagens.jpg" id="img-digi">
       <div class="card-body">
@@ -25,17 +27,43 @@
         <p class="card-text">Escreva o nome do seu Digimon preferido.</p>
       </div>      
     </div>
-  </sectio> 
+  </section> 
   
   <div id="container-input">
-    <input type="text" name="" id="input" placeholder="Digimon">    
+    <input name="input" id="input" placeholder="Digimon" onkeydown="limparForm(event)">    
   </div>
 
   <div id="container-voltar">
-    <a id="btn-voltar" href="./"><input type="button" value="NOVA CONSULTA">
-  </div>  
-  
-  <script src="./api.jsx"></script>
+    <a id="btn-voltar" href="./"><input type="button" value="NOVA CONSULTA"></a> <!-- Correção: fechamento da tag <a> estava faltando -->
+  </div>
 
+  <script>
+    function limparForm(event) {
+      if (event.key === "Enter") {
+        event.preventDefault(); // Impede que o formulário seja submetido
+
+        const inputElement = document.getElementById('input');
+        const digimonName = inputElement.value;
+
+        // Agora você pode fazer uma chamada à API usando o valor de digimonName
+        // Substitua este trecho pelo código da sua chamada à API
+        // Exemplo de chamada à API com fetch:
+        // fetch(`sua_url_da_api?digimon=${digimonName}`)
+        //   .then(response => response.json())
+        //   .then(data => {
+        //     // Manipule os dados da API aqui
+        //     console.log(data);
+        //   })
+        //   .catch(error => {
+        //     console.error('Erro ao buscar dados da API', error);
+        //   });
+
+        // Limpa o campo de entrada após a submissão
+        inputElement.value = '';
+      }
+    }
+  </script>
 </body>
 </html>
+
+

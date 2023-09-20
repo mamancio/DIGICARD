@@ -15,7 +15,7 @@ function digiAPI() {
     const digiArr = await fetchAPI();
 
     const find = digiArr.find(({ name }) => name.toLowerCase() === target.value.toLowerCase());
-
+    
     const image = find.img;
     const { name, level } = find;
 
