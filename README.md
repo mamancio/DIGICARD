@@ -29,3 +29,7 @@ Tecnologias, ferramentas e API utilizadas no desenvolvimento do projeto:
 ## Fontes de pesquisas
 
  - [Sobre os Digimons](https://simplesmentedigimon.blogspot.com/2013/04/tudo-sobre-digimon.html)
+
+## Pagina Web Vencel
+
+ - [DIGICARD](https://digicard-sigma.vercel.app/)
