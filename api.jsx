@@ -15,7 +15,7 @@ function digiAPI() {
     const digiArr = await fetchAPI();
 
     const find = digiArr.find(({ name }) => name.toLowerCase() === target.value.toLowerCase());
-    
+
     const image = find.img;
     const { name, level } = find;
 
@@ -23,8 +23,21 @@ function digiAPI() {
     digiTitle.innerHTML = name;
     imgDigi.src = image;
 
-    return find;
-  })
+    return find;    
+
+  }) 
 }
 
 window.onload = () => digiAPI();
+
+function limparForm(event) {
+  if (event.key === "Enter") {
+    event.preventDefault(); 
+
+    const input = document.getElementById('input');
+    const digimonName = input.value;
+
+    input.value = '';
+  }
+}
+

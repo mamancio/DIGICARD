@@ -56,16 +56,6 @@ body{
   padding: 5px 10px;
 }
 
-#btn-voltar {
-  margin-top:20px;  
-  text-decoration: none;
-}
-
-#container-voltar {
-  display: flex;
-  justify-content: center;
-} 
-
 
 #container-input {
   margin-top: 20px;
